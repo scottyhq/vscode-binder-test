@@ -12,6 +12,6 @@ jupyter labextension install --clean @jupyter-widgets/jupyterlab-manager \
 #code-server --install-extension ms-python.python
 
 # Install the VS code proxy - move to start script for use on hubs (since /home/jovyan has NFS mount)
-#pip install -e git+git://github.com/betatim/vscode-binder#egg=jupyter_vscode_proxy
+pip install --no-cache git+git://github.com/betatim/vscode-binder#egg=jupyter_vscode_proxy
 
 # EOF
