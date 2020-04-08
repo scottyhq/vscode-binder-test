@@ -1,0 +1,12 @@
+#!/bin/bash -l
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+export PANGEO_ENV="vscode-test"
+
+# Install the VS code proxy in home directory
+pip install -e git+git://github.com/betatim/vscode-binder#egg=jupyter_vscode_proxy
+
+# ==== ONLY EDIT WITHIN THIS BLOCK =====
+
+exec "$@"
