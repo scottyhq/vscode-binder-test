@@ -1,0 +1,13 @@
+name: icesat2020
+channels:
+  - conda-forge
+dependencies:
+# Core pangeo jupyterhub requirements
+  - python=3.8
+  - pangeo-notebook=2020.04.04
+  - python-graphviz
+  - pip=20.0
+# Additional libraries (alphabetical order)
+  - awscli
+  - cartopy
+  - code-server
