@@ -1,0 +1,2 @@
+# Install the VS code proxy 
+git+git://github.com/betatim/vscode-binder#egg=jupyter_vscode_proxy
